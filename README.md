@@ -1,6 +1,6 @@
 # Cassava-Leaf-Disease-Classification
 
-https://www.kaggle.com/c/cassava-leaf-disease-classification/leaderboard 
+https://www.kaggle.com/c/cassava-leaf-disease-classification/leaderboard   
 We got 26th prize.
 
 ## Summary
