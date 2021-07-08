@@ -9,13 +9,13 @@ This is summary and codes.
 
 ## 1st Stage
 ・5fold StratifiedKFold  
-・Using 2020 data
-・Cretate predicted train data labels as output file
+・Using 2020 data  
+・Cretate predicted train data labels as output file  
 
 ## 2nd Stage
 ・5fold StratifiedKFold  
 ・Using 2020 data  
-Create new train labels by 1st stage output. Idea is below.
+Create new train labels by 1st stage output. Idea is below.  
 https://www.kaggle.com/c/plant-pathology-2020-fgvc7/discussion/154056
 
 # Model
@@ -68,7 +68,6 @@ TaylorCrossEntropyLoss
 CosineAnnealingWarmRestarts
 
 # Not Worked
-・Loss function(BiTemperedLogisticLoss/FocalCosineLoss/CrossEntropyLoss)
-・LRscheduler(GradualWarmupScheduler/OneCycleLR/LambdaLR)
-・Additional data(2019)
-
+・Loss function(BiTemperedLogisticLoss/FocalCosineLoss/CrossEntropyLoss)  
+・LRscheduler(GradualWarmupScheduler/OneCycleLR/LambdaLR)  
+・Additional data(2019)  
